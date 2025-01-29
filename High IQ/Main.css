@@ -1,0 +1,64 @@
+body {
+    background-color: white;
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container {
+    background-color: #ADD8E6;
+    padding: 12px;
+    border-radius: 5px;
+}
+
+.filter-container, .kpi-container, .chart-container {
+    background-color: #CED2CC; 
+    border-radius: 20px;
+    padding: 12px;
+}
+
+.card {
+    background-color: #F1F1F1;
+    border-radius: 12px;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+    padding: 12px;
+}
+
+.dashboard-title {
+    color: #23282D;
+    font-style: bold;
+}
+
+.filter-title, .kpi-title {
+    color: #23282D; 
+    font-style: bold;
+}
+
+.kpi-card {
+    color: #202020;
+}
+
+.kpi-value {
+    color: #23282D; /* Vibrant red */
+}
+
+.chart-container {
+    background-color: #F1F1F1;
+    border-radius: 10px;
+    padding: 12px;
+}
+
+.apply-button, .reset-button {
+    background-color: #42A5F5; 
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 6px 12px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.apply-button:hover, .reset-button:hover {
+    background-color: #1E88E5; 
+}
